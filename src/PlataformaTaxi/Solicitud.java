@@ -1,3 +1,5 @@
+package PlataformaTaxi;
+
 public class Solicitud {
 
     private int id;
@@ -48,7 +50,7 @@ public class Solicitud {
 
     @Override
     public String toString() {
-        return "Solicitud #" + id +
+        return "PlataformaTaxi.Solicitud #" + id +
                 " | Usuario: " + usuario +
                 " | " + origen + " -> " + destino;
     }
